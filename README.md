@@ -32,7 +32,9 @@ cd pytorch-CycleGAN-and-pix2pix
 ### CycleGAN train/test
 - Download the dataset from the internet to your computer:
 http://www2.isprs.org/commissions/comm3/wg4/data-request-form2.html
-  In our work, we use the datasets of Vaihingen and Potsman. We can choose one of them to be the training set and the other served as   the test set.
+  - In our work, we use the datasets of Vaihingen and Potsman. We can choose one of them to be the training set and the other served as    the test set.
+- Pretraitement of the dataset:
+  - 
   
 - To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
 - Train a model:
