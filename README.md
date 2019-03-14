@@ -118,4 +118,4 @@ Please run `flake8 --ignore E501 .` and `python ./scripts/test_before_push.py` b
 If you love cats, and love reading cool graphics, vision, and learning papers, please check out the Cat Paper [Collection](https://github.com/junyanz/CatPapers).
 
 ## Acknowledgments
-Our code is inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan).
+The code is inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan).
