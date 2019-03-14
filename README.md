@@ -80,12 +80,6 @@ Download pix2pix/CycleGAN datasets and create your own datasets.
 ## [Training/Test Tips](docs/tips.md)
 Best practice for training and testing your models.
 
-## [Frequently Asked Questions](docs/qa.md)
-Before you post a new question, please first look at the above Q & A and existing GitHub issues.
-
-## Custom Model and Dataset
-If you plan to implement custom models and dataset for your new applications, we provide a dataset [template](data/template_dataset.py) and a model [template](models/template_model.py) as a starting point.
-
 ## [Code structure](docs/overview.md)
 To help users better understand and use our code, we briefly overview the functionality and implementation of each package and each module.
 
