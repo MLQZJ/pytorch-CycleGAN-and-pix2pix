@@ -42,7 +42,6 @@ http://www2.isprs.org/commissions/comm3/wg4/data-request-form2.html
   python3 -m visdom.server
   ```
   and click the URL http://localhost:8097. 
-  Note: Use another terminal and type "ssh -N -L localhost:8096:localhost:8097 vm_adress" when we use the virtual machine and click on     http://localhost:8096.
  
 ### CycleGAN train/test
 
