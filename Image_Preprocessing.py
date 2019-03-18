@@ -13,8 +13,8 @@ import os.path
 import argparse
 
 parser = argparse.ArgumentParser('image processing')
-parser.add_argument('--fold_A', dest='fold_A', help='input directory for images', type=str, default='./datasets/satellite/trainA')
-parser.add_argument('--fold_B', dest='fold_B', help='input directory for labels', type=str, default='./datasets/satellite/trainB')
+parser.add_argument('--fold_A', dest='fold_A', help='input directory for images', type=str, default='./datasets/images')
+parser.add_argument('--fold_B', dest='fold_B', help='input directory for labels', type=str, default='./datasets/labels')
 parser.add_argument('--fold_AB', dest='fold_AB', help='output directory', type=str, default='./datasets/satellite/')
 parser.add_argument('--num_imgs', dest='num_imgs', help='number of images', type=int, default=1000000)
 args = parser.parse_args()
