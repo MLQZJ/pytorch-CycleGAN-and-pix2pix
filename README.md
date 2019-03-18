@@ -31,7 +31,7 @@ cd pytorch-CycleGAN-and-pix2pix
 ### Preparation of Dataset for Pix2pix and CycleGAN
 - Download the dataset from the internet to your computer:
 http://www2.isprs.org/commissions/comm3/wg4/data-request-form2.html
-  - In our work, we use the datasets of Vaihingen. We download the 'ISPRS_semantic_labeling_Vaihingen_ground_truth_COMPLETE' under the .datasets/images and 'ISPRS_semantic_labeling_Vaihingen' under the ./datasets/labels. We pre-treat the dataset by the command below to obtain the paired dataset: 
+  - In our work, we use the datasets of Vaihingen. We download the 'ISPRS_semantic_labeling_Vaihingen_ground_truth_COMPLETE' under the .datasets/labels and 'ISPRS_semantic_labeling_Vaihingen' under the ./datasets/images. We pre-treat the dataset by the command below to obtain the paired dataset: 
 
 ```bash
   python Image_Preprocessing.py 
