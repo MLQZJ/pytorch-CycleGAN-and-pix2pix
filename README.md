@@ -28,7 +28,7 @@ cd pytorch-CycleGAN-and-pix2pix
   - For pip users, please type the command `pip install -r requirements.txt`.
   - For Conda users, we provide a installation script `./scripts/conda_deps.sh`. Alternatively, you can create a new Conda environment using `conda env create -f environment.yml`.
 
-### CycleGAN train/test
+### Preparation of Dataset for Pix2pix and CycleGAN
 - Download the dataset from the internet to your computer:
 http://www2.isprs.org/commissions/comm3/wg4/data-request-form2.html
   - In our work, we use the datasets of Vaihingen. We download the 'ISPRS_semantic_labeling_Vaihingen_ground_truth_COMPLETE' under the .datasets/images and 'ISPRS_semantic_labeling_Vaihingen' under the ./datasets/labels. We pre-treat the dataset by the command below to obtain the paired dataset: 
@@ -43,7 +43,9 @@ http://www2.isprs.org/commissions/comm3/wg4/data-request-form2.html
   ```
   and click the URL http://localhost:8097. 
   Note: Use another terminal and type "ssh -N -L localhost:8096:localhost:8097 vm_adress" when we use the virtual machine and click on     http://localhost:8096.
-  
+ 
+### CycleGAN train/test
+
 - Train a model:
 ```bash
 #!./scripts/train_cyclegan.sh
