@@ -1,6 +1,7 @@
 # CycleGAN and pix2pix in PyTorch
 
 Our group has applicated our dataset (satellite) on the Pix2pix and CycleGAN which were written by [Jun-Yan Zhu](https://github.com/junyanz) and [Taesung Park](https://github.com/taesung), and supported by [Tongzhou Wang](https://ssnl.github.io/). 
+Our work is writing an 'image_preprocessing' python file so that all the dataset can be trained by the pix2pix and cycleGAN algorithms.
 
 These are the informations of the authors:
 
@@ -76,6 +77,13 @@ python train.py --dataroot ./datasets/satellite --name satellite_pix2pix --model
 python test.py --dataroot ./datasets/satellite --name satellite_pix2pix --model pix2pix --direction BtoA
 ```
 - The test results will be saved to a html file here: `./results/satellite_pix2pix/test_latest/index.html`. You can find more scripts at `scripts` directory.
+
+## Our work:
+
+## [Image_Preprocessing]
+Pre-treat the dataset so that we can get the new dataset to train and to test the models.
+
+## Work of the original authors:
 
 ## [Datasets](docs/datasets.md)
 Download pix2pix/CycleGAN datasets and create your own datasets.
